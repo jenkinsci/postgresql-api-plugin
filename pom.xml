@@ -11,13 +11,14 @@
 
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>postgresql-api</artifactId>
-    <version>${changelist}</version>
+    <version>${revision}-${changelist}</version>
     <packaging>hpi</packaging>
 
     <name>PostgreSQL API Plugin</name>
     <url>https://github.com/jenkinsci/postgresql-api-plugin</url>
 
     <properties>
+        <revision>42.6.0</revision>
         <changelist>999999-SNAPSHOT</changelist>
         <gitHubRepo>jenkinsci/postgresql-api-plugin</gitHubRepo>
         <jenkins.version>2.387.1</jenkins.version>
@@ -26,7 +27,7 @@
         <dependency>
           <groupId>org.postgresql</groupId>
           <artifactId>postgresql</artifactId>
-          <version>42.6.0</version>
+          <version>${revision}</version>
         </dependency>
     </dependencies>
 
