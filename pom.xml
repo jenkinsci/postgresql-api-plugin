@@ -18,7 +18,7 @@
     <url>https://github.com/jenkinsci/postgresql-api-plugin</url>
 
     <properties>
-        <revision>42.7.3</revision>
+        <revision>42.7.4</revision>
         <changelist>999999-SNAPSHOT</changelist>
         <gitHubRepo>jenkinsci/postgresql-api-plugin</gitHubRepo>
         <jenkins.version>2.387.1</jenkins.version>
